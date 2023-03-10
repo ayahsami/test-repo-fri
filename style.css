@@ -1,0 +1,75 @@
+
+body{
+  color: blue;
+  background-color: lightblue;
+  font-family: "Times new roman", times, serif;
+}
+
+h1 {
+  background-color: blue;
+  color: white;
+  font-size: 5em;
+}
+
+h1,h2{
+  text-align: center;
+}
+p{
+  font-size: 20px;
+}
+
+div{
+  min-height: 10vh;
+  width: 100vw;
+  color: red;
+}
+
+img{
+  display: flex;
+  padding: auto;
+  margin: 0;
+  border-radius: 130px;
+}
+
+a{
+  color: rgb(0,0,0);
+}
+
+ol{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10%;
+  font-size: 3em;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#first{
+  background-color: rgb(20,0,400);
+  color: white;
+  width: 20vw;
+}
+
+#second{
+    background-color: rgb(20,0,200);
+    color: white;
+    width: 20vw;
+}
+
+#third{
+  background-color: rgb(20,0,150);
+  color: white;
+  width: 20vw;
+}
+
+#fourth{
+  background-color: rgb(20,0,100);
+  color: white;
+  width: 20vw;
+}
+
+h2:hover{
+  transition: 0.6s ease;
+  font-size: 1.6em;
+  cursor: pointer;
+}
